@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+nav{
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#nav1{
+    display: flex;
+    padding: 50px;
+}
+.ri-menu-line{
+    border: .5px solid;
+    border-radius: 25px;
+    padding: 5px;
+}
+#Menu{
+    border: .5px solid;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#nav3{
+    padding: 50px;
+    font-size: 18px;
+
+}
+button{
+    padding: 5px;
+    border-radius: 25px;
+}
+#btn1{
+    background-color:white;
+    border: .5px solid;
+}
+#btn2{
+    background-color: #ff4500;
+    color: white;
+    border:.5px orangered;
+}
+#btn2:hover{
+    background-color: rgb(255, 103, 47, 0.4);
+    color: rgb(24, 24, 24);
+}
+#nav2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:500;
+}
+h3{
+    font-size: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+#btm-left{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+#btm-right{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+#icons{
+    position: absolute;
+    right: 30%;
+    bottom: 100%;
+}
+img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    border-radius: 20px;
+}
+#im1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+
+}
+#img4{
+    transform: translate(-50%,-50%);
+
+}
